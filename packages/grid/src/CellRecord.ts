@@ -1,4 +1,4 @@
-import * as cell from '@vertabiz/cell-data'
+import * as cell from '@vertabiz/cells'
 
 /**
  * `CellRecord` is a data structure that roughly corresponds to a row in a

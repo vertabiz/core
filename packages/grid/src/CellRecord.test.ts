@@ -1,6 +1,6 @@
+import { from as cv } from '@vertabiz/cells'
 import test from 'ava'
 import CellRecord from './CellRecord'
-import { from as cv } from '@vertabiz/cell-data'
 
 test('set() -> with new value', t => {
   const record = new CellRecord()

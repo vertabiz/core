@@ -1,7 +1,7 @@
-import { from as cv } from '@vertabiz/cell-data'
 import * as xy from '@vertabiz/xy'
 import { Point } from '@vertabiz/xy'
 import test from 'ava'
+import { from as cv } from '../data'
 import CellMap from './CellMap'
 
 test('newCellMap(values) -> returns a Map with provided key-values mapped', t => {

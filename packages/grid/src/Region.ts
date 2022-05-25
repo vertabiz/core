@@ -1,5 +1,5 @@
-import * as cm from '@vertabiz/cell-map'
-import { CellMap } from '@vertabiz/cell-map'
+import * as cm from '@vertabiz/cells'
+import { CellMap } from '@vertabiz/cells'
 import * as ref from '@vertabiz/range-ref'
 import { Range } from '@vertabiz/range-ref'
 import { Point } from '@vertabiz/xy'
@@ -29,11 +29,11 @@ export class Region {
     return this._range.copy()
   }
 
-  cells(): IterableIterator<[string, cm.cell.CellData | undefined]> {
+  cells(): IterableIterator<[string, cm.CellData | undefined]> {
     return this._map.entries()
   }
 
-  getCellData(addr: string): cm.cell.CellData | undefined {
+  getCellData(addr: string): cm.CellData | undefined {
     return this._map.get(addr) ?? undefined
   }
 

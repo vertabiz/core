@@ -1,6 +1,6 @@
-import { CellData } from '@vertabiz/cell-data'
 import { Range } from '@vertabiz/range-ref'
 import { Rect } from '@vertabiz/xy'
+import { CellData } from '../data'
 
 // export type CellMap = Map<string, CellData | undefined>
 

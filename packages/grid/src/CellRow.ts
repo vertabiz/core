@@ -1,4 +1,4 @@
-import * as cell from '@vertabiz/cell-data'
+import * as cell from '@vertabiz/cells'
 import * as xy from '@vertabiz/xy'
 import { Size } from '@vertabiz/xy'
 

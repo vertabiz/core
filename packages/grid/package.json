@@ -1,6 +1,6 @@
 {
   "name": "@vertabiz/grid",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -12,6 +12,10 @@
   "scripts": {
     "test": "ava",
     "build": "tsc"
+  },
+  "repository": {
+    "url": "git@github.com:vertabiz/core.git",
+    "directory": "packages/grid"
   },
   "author": "",
   "license": "MIT",
@@ -32,10 +36,9 @@
     ]
   },
   "dependencies": {
-    "@vertabiz/cell-data": "^1.0.0",
-    "@vertabiz/cell-map": "^1.0.0",
-    "@vertabiz/range-ref": "^1.0.0",
-    "@vertabiz/xy": "^1.0.0",
+    "@vertabiz/cells": "^0.1.0",
+    "@vertabiz/range-ref": "^0.1.0",
+    "@vertabiz/xy": "^0.1.0",
     "core-js": "^3.21.1",
     "lodash.clonedeep": "^4.5.0",
     "lodash.get": "^4.4.2",

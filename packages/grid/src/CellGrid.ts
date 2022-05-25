@@ -1,5 +1,4 @@
-import { CellData } from '@vertabiz/cell-data'
-import { CellMap } from '@vertabiz/cell-map'
+import { CellData, CellMap } from '@vertabiz/cells'
 import { Range } from '@vertabiz/range-ref'
 import * as xy from '@vertabiz/xy'
 import { Point } from '@vertabiz/xy'

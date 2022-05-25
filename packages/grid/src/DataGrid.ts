@@ -1,4 +1,4 @@
-import { cell } from '@vertabiz/cell-map'
+import * as cell from '@vertabiz/cells'
 import { Range } from '@vertabiz/range-ref'
 import { Point, Rect, Size } from '@vertabiz/xy'
 import CellGrid from './CellGrid'

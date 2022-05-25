@@ -1,4 +1,4 @@
-import { from as cv } from '@vertabiz/cell-data'
+import { from as cv } from '@vertabiz/cells'
 import { Range } from '@vertabiz/range-ref'
 import test from 'ava'
 import CellRecord from './CellRecord'
